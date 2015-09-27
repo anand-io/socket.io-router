@@ -17,8 +17,8 @@ server.listen(3000);
 ## Client
 
 Load client 
-
 ```<script type="text/javascript"  src="/socket.io/socket.io.js"></script>```
+```<script type="text/javascript"  src="/socket.io-router/socket.io-router.js"></script>```
 
 ```javascript
 ioRouter(io);
