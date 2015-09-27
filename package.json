@@ -1,0 +1,32 @@
+{
+  "name": "socket.io-router",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec",
+    "debug-test": "./node_modules/.bin/mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "socket.io",
+    "socket",
+    "websocket"
+  ],
+  "author": "Anand S <anand.seenivasan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "socket.io-router-client": "git://github.com/anand-io/socket.io-router-client.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "socket.io": "^1.3.6",
+    "socket.io-client": "^1.3.6"
+  }
+}
